@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="execution.android.AndroidTestExecution" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-21T16:00:47" hostname="DESKTOP-0AIKRNE" time="101.554">
+  <properties/>
+  <testcase name="test" classname="execution.android.AndroidTestExecution" time="101.554"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mai 21, 2021 6:01:08 NACHM. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
