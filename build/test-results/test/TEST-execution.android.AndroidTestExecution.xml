@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="execution.android.AndroidTestExecution" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-21T16:00:47" hostname="DESKTOP-0AIKRNE" time="101.554">
+<testsuite name="execution.android.AndroidTestExecution" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-25T10:02:32" hostname="DESKTOP-0AIKRNE" time="51.295">
   <properties/>
-  <testcase name="test" classname="execution.android.AndroidTestExecution" time="101.554"/>
+  <testcase name="useCaseAddContact" classname="execution.android.AndroidTestExecution" time="51.295"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Mai 21, 2021 6:01:08 NACHM. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+  <system-err><![CDATA[Mai 25, 2021 12:02:49 NACHM. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

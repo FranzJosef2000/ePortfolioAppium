@@ -11,4 +11,13 @@ class AndroidAppiumWrapper(driver: AppiumDriver<MobileElement>): AppiumWrapper(d
         return driver.findElement(By.xpath("//*[@placeholder='$placeholder']"))
     }
 
+    override fun findElementWithText(text: String): MobileElement {
+        return driver.findElement(By.xpath("//*[@text='$text']"))
+    }
+
+    override fun findElementWithId(id: String): MobileElement {
+        //return driver.findElement(By.xpath("//*[@id='$id']"))
+        return driver.findElement(By.id(id))
+    }
+
 }

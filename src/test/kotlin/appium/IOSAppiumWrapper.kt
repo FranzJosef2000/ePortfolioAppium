@@ -9,4 +9,12 @@ class IOSAppiumWrapper(driver: AppiumDriver<MobileElement>): AppiumWrapper(drive
     override fun findElementWithPlaceholder(placeholder: String): WebElement {
         TODO("Not yet implemented")
     }
+
+    override fun findElementWithText(text: String): MobileElement {
+        TODO("Not yet implemented")
+    }
+
+    override fun findElementWithId(id: String): MobileElement {
+        TODO("Not yet implemented")
+    }
 }

@@ -18,6 +18,14 @@ abstract class AppiumWrapper(var driver: AppiumDriver<MobileElement>) {
     private fun getPackageId(): String {
         return driver.capabilities.getCapability("appPackage").toString()
     }
-    abstract fun findElementWithPlaceholder(placeholder: String): WebElement
 
+    fun clickElementWithText(text: String){
+        findElementWithText(text).click()
+    }
+    fun clickElementWithId(id: String){
+        findElementWithId(id).click()
+    }
+    abstract fun findElementWithPlaceholder(placeholder: String): WebElement
+    abstract fun findElementWithText(text: String) : MobileElement
+    abstract fun findElementWithId(id: String) : MobileElement
 }

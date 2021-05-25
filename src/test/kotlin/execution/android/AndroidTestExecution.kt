@@ -4,6 +4,7 @@ import appium.AppiumWrapper
 import config.setupForAndroidEmulator
 import org.junit.Before
 import org.junit.Test
+import useCases.addContact
 
 
 class AndroidTestExecution {
@@ -16,6 +17,6 @@ class AndroidTestExecution {
 
     @Test
     fun useCaseAddContact(){
-
+        addContact(appium)
     }
 }
